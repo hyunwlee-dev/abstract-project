@@ -1,6 +1,8 @@
 /* 기본 스타일 */
 *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -17,4 +19,24 @@ a {
 body {
   color: #212121;
   font-size: 1.4rem;
+}
+
+.header {
+  background-color: pink;
+  height: 10vh;
+}
+
+.search-form {
+  background-color: orange;
+  height: 20vh;
+}
+
+main {
+  background-color: yellow;
+  height: 50vh;
+}
+
+.footer {
+  background-color: gray;
+  height: 20vh;
 }
