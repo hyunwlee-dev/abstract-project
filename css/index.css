@@ -1,11 +1,13 @@
 /* 기본 스타일 */
 *, *::before, *::after {
   box-sizing: border-box;
+  margin:0;
 }
 
 html {
   font-size: 10px;
 }
+
 
 /* 링크 스타일 */
 a {
@@ -17,4 +19,121 @@ a {
 body {
   color: #212121;
   font-size: 1.4rem;
+}
+
+
+
+/* 보화 : 헤더 */
+
+.header{background-color: black;
+width:1517px;
+height:89px;
+display: flex;
+align-items: center;
+}
+
+.logo{
+ 
+  display: inline-block;
+  flex-grow: 1;
+  height:52px;
+}
+
+
+
+
+.logo img{
+  position: absolute;
+  top: 27px;
+  left: 100px;
+
+}
+
+.logo .title{
+  color:white;
+  font-size: 23px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left:145px;
+  font-weight: 550;
+ 
+}
+
+.logo .gray{
+  transition: 300ms;
+}
+
+.logo .gray:hover{
+ 
+  opacity: 0.8;
+ 
+}
+
+.logo .help::before{
+  content:"";
+width:1px;
+height:30px;
+background-color: white;
+display: inline-block;
+margin: 0 14px 0 10px;
+position:relative;
+top:8px;
+
+}
+
+
+.logo .help{
+  text-decoration: none;
+color:white;
+font-size: 23px;
+font-weight:545;
+line-height: 50px;
+vertical-align: baseline;
+}
+
+.logo .help:hover, .logo .help:focus{
+  text-decoration: underline;
+}
+
+
+.request, .login{
+  height:50px;
+  font-weight: 540;
+  line-height: 45px;
+
+  text-align: center;
+  font-size: 24px;
+  border-radius: 10px;
+  color:white;
+  cursor: pointer;
+}
+.request{
+
+  background-color: none;
+  border: 1px solid white;
+
+  width:236px;
+
+
+}
+
+.login{
+
+  background-color: #4C5FD5;
+  border: 1px solid #4C5FD5;
+width:146px;
+margin-right:104px;
+margin-left:22px;
+transition: 200ms;
+
+}
+
+.login:hover, .login:focus{
+
+  background-color: white;
+  border: 1px solid white;
+color:black;
+
+
 }
