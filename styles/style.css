@@ -20,14 +20,17 @@ body {
 
 /* 검색 영역 */
 .search-form {
-  background: #dadbf1;
+  position: relative;
+  background-color: #dadbf1;
   height: 400px;
+  padding: 50px 0;
 }
 
 .te-textitl {
   font-size: 80px;
-  position: absolute;
 }
 
 .search-form-input {
+  font-size: 20px;
+
 }
