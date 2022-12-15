@@ -34,6 +34,9 @@ body {
 }
 
 .search-form-input {
+  background-color: yellow;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  height: 66px;
   font-size: 20px;
-
 }
