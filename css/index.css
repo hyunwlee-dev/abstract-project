@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 html {
@@ -33,10 +34,73 @@ body {
 
 main {
   background-color: yellow;
-  height: 50vh;
 }
 
 .footer {
-  background-color: gray;
-  height: 20vh;
+  height: 360px;
+  background-color: #000000; 
+  color: #ccc;
+  display: flow-root;
+  position: relative;
+}
+
+.abstract, .resources, .community, .company {
+  margin: 50px 6%;
+  float: left;
+}
+
+.abstract > h2, 
+.resources > h2, 
+.community > h2, 
+.company > h2 {
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+.abstract li, 
+.resources li, 
+.community li, 
+.company li {
+  padding: 2px 0;
+} 
+.abstract {
+  margin-left: 12%;
+}
+
+.resources {
+  float: left; 
+}
+
+.community {
+  float: left; 
+}
+
+.company {
+  float: left; 
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.address span{
+  display: block;
+  font-style: normal;
+}
+
+.address span:first-child {
+  font-weight: 700;
+  color: #fff;
+}
+
+.copyright {
+  background: url("../styles/images/logo-1.png") no-repeat 0 0;
+  font-size: 16px;
+  padding-top: 30px;
+  clear: both;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  white-space : pre-line;
+  color: #fff;
 }
