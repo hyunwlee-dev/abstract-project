@@ -18,3 +18,22 @@ body {
   color: #212121;
   font-size: 1.4rem;
 }
+
+/* 검색 영역 */
+.search-form {
+  position: relative;
+  background-color: #dadbf1;
+  height: 400px;
+  padding: 50px 0;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.te-textitl {
+  font-size: 80px;
+}
+
+.search-form-input {
+  display: block;
+}
