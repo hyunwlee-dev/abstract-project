@@ -6,7 +6,7 @@
 
 
 .header{background-color: black;
-  width:100%;
+  width:auto;
   height:89px;
   display: flex;
   align-items: center;
@@ -113,6 +113,47 @@ width:100%;
 
 .link:hover{
   opacity: 0.8;
-
- 
 }
+
+
+
+/* 선희님 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
