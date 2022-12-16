@@ -48,13 +48,14 @@ fieldset {
 }
 
 .search-form-input {
-  /* display: block; */
+  display: block;
   border-width: 1px;
   /* float: left; */
   width: 680px;
   height: 50px;
   box-shadow: 4px 4px 5px 2px gray;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .search-button-form {
