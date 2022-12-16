@@ -10,15 +10,14 @@ html {
   font-size: 10px;
 }
 
-
 /* 링크 스타일 */
 a {
   color: inherit;
   text-decoration: none;
 }
+
 /* Accessibility Styles */
-.a11yHidden,
-legend {
+.a11yHidden, legend {
   overflow: hidden;
   position: absolute !important;
   clip: rect(0, 0, 0, 0);
@@ -27,6 +26,7 @@ legend {
   height: 1px;
   margin: -1px;
 }
+
 /* 본문 스타일 */
 body {
   color: #212121;
@@ -45,9 +45,9 @@ body {
 
 /* 메인영역 */
 main {
-  /* width: auto; */
   padding: 0 100px;
 }
+
 .container{
   display: flex;
   flex-flow: row wrap;
@@ -79,17 +79,16 @@ main {
   top: -35px;
 }
 
-
 .category-list-item-title{
   font-size: 24px;
   font-weight: 700;
 }
 .category-list-item-desc {
-  /* position: absolute; */
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 20px;
 }
+
 .category-list-desc div{
   display: block;
 }
@@ -101,7 +100,6 @@ main {
   font-weight: 400;
 }
 
-/* 푸터영역 */
 .footer {
   height: 360px;
   background-color: #000000; 
@@ -170,6 +168,7 @@ main {
   white-space : pre-line;
   color: #fff;
 }
+
 /* 검색 영역 */
 fieldset {
   border: none;
@@ -235,56 +234,40 @@ fieldset {
   display: flex;
   align-items: center;
   color:white;
-
   }
 
-  .logo{
+.logo{
+  flex-grow: 1;
+  padding-left: 234px;
+  display: flex;
+  align-items: center;
+}
 
-    flex-grow: 1;
-    padding-left: 234px;
-    display: flex;
-    align-items: center;
+.help{
+  font-size:24px;
+  font-weight:540;
+}
 
+.line{
+  width:2px;
+  height:32px;
+  background-color: white;
+  display: inline-block;
+  margin-right:12px;
+}
 
-
-  }
-
-  a{
-    text-decoration: none;
-  color:white;
-  }
-
-
-  .help{
-
-    font-size:24px;
-    font-weight:540;
-  }
-
-  .line{
-    width:2px;
-height:32px;
-background-color: white;
-display: inline-block;
-margin-right:12px;
-  }
-
-  .logo .help:hover, .logo .help:focus{
-    text-decoration: underline;
-  }
-
-
+.logo .help:hover, .logo .help:focus{
+  text-decoration: underline;
+}
 
 .request, .login{
   border-radius: 10px;
   height:52px;
-text-align: center;
-line-height: 52px;
-font-size: 25px;
-font-weight: 520;
-
+  text-align: center;
+  line-height: 52px;
+  font-size: 25px;
+  font-weight: 520;
 }
-
 
 .request{
   margin-left : 20px;
@@ -303,19 +286,11 @@ font-weight: 520;
   transition: 200ms;
 }
 
-
-
 .login:hover, .login:focus{
-
   background-color: white;
   border: 1px solid white;
-color:black;
-
-
+  color:black;
 }
-
-
-
 
 .link{
   display: block;
@@ -329,10 +304,8 @@ color:black;
 
 .link .logoLink {
   background: url("../styles/images/logoFinal2.png") no-repeat 0 0/100% 100%;
-width:100%;
+  width:100%;
   height:100%;
-
-
 }
 
 .link:hover{
