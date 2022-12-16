@@ -1,0 +1,36 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 본문 스타일 */
+body {
+  color: #212121;
+  font-size: 1.4rem;
+}
+
+/* 검색 영역 */
+.search-form {
+  position: relative;
+  background-color: #dadbf1;
+  height: 400px;
+  padding: 50px 0;
+}
+
+.te-textitl {
+  font-size: 80px;
+}
+
+.search-form-input {
+  font-size: 20px;
+
+}
