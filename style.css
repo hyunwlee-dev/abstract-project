@@ -1,0 +1,159 @@
+/* 기본 스타일 */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin:0;
+}
+
+
+.header{background-color: black;
+  width:auto;
+  height:89px;
+  display: flex;
+  align-items: center;
+  color:white;
+
+  }
+
+  .logo{
+    /* background-color: orange; */
+    flex-grow: 1;
+    padding-left: 234px;
+    display: flex;
+    align-items: center;
+
+
+    
+  }
+
+  a{
+    text-decoration: none;
+  color:white;
+  }
+
+
+  .help{
+    /* background-color: pink; */
+    font-size:24px;
+    font-weight:540;
+  }
+
+  .line{
+    width:2px;
+height:32px;
+background-color: white;
+display: inline-block;
+margin-right:12px;
+  }
+
+  .logo .help:hover, .logo .help:focus{
+    text-decoration: underline;
+  }
+  
+
+
+.request, .login{
+  border-radius: 10px;
+  height:52px;
+text-align: center;
+line-height: 52px;
+font-size: 25px;
+font-weight: 520;
+
+}
+
+
+.request{
+  margin-left : 20px;
+  margin-right: 20px;
+  width: 233px;
+  border: 1px solid white;
+  background-color: transparent;
+
+}
+
+.login{
+  margin-right:100px;
+  width: 140px;
+  border: 1px solid #4C5FD5;
+  background-color: #4C5FD5;
+  transition: 200ms;
+}
+
+
+
+.login:hover, .login:focus{
+
+  background-color: white;
+  border: 1px solid white;
+color:black;
+
+
+}
+
+
+/* 이미지 */
+
+.link{
+  display: block;
+  width: 170px;
+  height: 50px;
+  position:absolute;
+  left:60px;
+  top: 19px;
+  transition: 300ms;
+}
+
+.link .logoLink {
+  background: url(./logoFinal2.png) no-repeat 0 0/100% 100%;
+width:100%;
+  height:100%;
+
+  
+}
+
+.link:hover{
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
