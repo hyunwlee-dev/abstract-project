@@ -104,3 +104,62 @@ main {
   white-space : pre-line;
   color: #fff;
 }
+/* 검색 영역 */
+fieldset {
+  border: none;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-form {
+  /* max-width: 1200px; */
+  /* position: absolute; */
+  margin: 0 auto;
+  background-color: #dadbf1;
+  height: 396px;
+  width: auto;
+}
+
+.search-form fieldset {
+  position: relative;
+}
+
+.te-textitl {
+  font-size: 65px;
+  position: relative;
+  text-align: center;
+}
+
+.search-form-input {
+  display: block;
+  border-width: 1px;
+  /* float: left; */
+  width: 680px;
+  height: 50px;
+  box-shadow: 4px 4px 5px 2px gray;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.search-button-form {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  left: 660px;
+  top: 18px;
+}
+
+.search-button-form:hover {
+  background-color: blue;
+}
+
+.search-button {
+  background: url("../styles/images/arrow_forward.png") no-repeat;
+  width: 30px;
+  height: 30px;
+  padding-top: 40px;
+  border: none;
+}
